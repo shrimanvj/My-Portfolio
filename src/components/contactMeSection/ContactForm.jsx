@@ -47,7 +47,7 @@ const ContactForm = () => {
           name="from_name"
           placeholder="Your Name"
           required
-          className="h-12 rounded-lg bg-darkInput px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan"
+          className="h-12 rounded-lg bg-darkInput px-4 text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan"
           value={name}
           onChange={handleName}
         />
@@ -56,7 +56,7 @@ const ContactForm = () => {
           name="from_email"
           placeholder="Your Email"
           required
-          className="h-12 rounded-lg bg-darkInput px-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan"
+          className="h-12 rounded-lg bg-darkInput px-4 text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan"
           value={email}
           onChange={handleEmail}
         />
@@ -65,7 +65,7 @@ const ContactForm = () => {
           rows="6"
           placeholder="Your Message"
           required
-          className="rounded-lg bg-darkInput px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan resize-none"
+          className="rounded-lg bg-darkInput px-4 py-3 text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan resize-none"
           value={message}
           onChange={handleMessage}
         />
