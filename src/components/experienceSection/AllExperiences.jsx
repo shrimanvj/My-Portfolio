@@ -33,7 +33,7 @@ const AllExperiences = () => {
     <div className="flex flex-wrap gap-6 justify-center max-w-full px-4 py-6">
       {experiences.map((experience, index) => (
         <div key={index} className="flex items-center gap-4">
-          <SingleExperience experience={experience} />
+          <SingleExperience experience={experience} cardClass="section-card" />
           {index < experiences.length - 1 && (
             <motion.div
               variants={fadeIn("right", 0)}

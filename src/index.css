@@ -4,5 +4,18 @@
 @tailwind utilities;
 
 body {
-  @apply bg-darkBrown;
+  @apply bg-[#18181b] text-[#e5e5e5] font-body;
+  background: linear-gradient(135deg, #18181b 0%, #23272f 100%);
+}
+
+.section-card {
+  @apply bg-[#23272f] rounded-2xl shadow-cyanShadow border border-darkBrown;
+}
+
+.text-accent {
+  @apply text-cyan;
+}
+
+.text-highlight {
+  @apply text-orange;
 }
