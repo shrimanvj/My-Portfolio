@@ -41,3 +41,25 @@ body {
 .animate-fade-in {
   animation: fade-in 1.2s cubic-bezier(0.4,0,0.2,1) both;
 }
+
+.section-title {
+  @apply text-5xl md:text-6xl font-bold text-cyan mb-8 relative;
+}
+
+.section-title-underline {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 120px;
+  height: 5px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #15d1e9, #fb9718, #15d1e9);
+  background-size: 200% 200%;
+  animation: gradient-underline 3s ease-in-out infinite;
+}
+
+@keyframes gradient-underline {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}

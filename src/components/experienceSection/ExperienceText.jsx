@@ -1,7 +1,9 @@
 const ExperienceText = () => {
   return (
     <div className="flex flex-col items-center mt-[100px] ">
-      <h2 className="text-6xl text-cyan mb-10">Experience</h2>
+      <h2 className="section-title">Experience
+        <span className="section-title-underline"></span>
+      </h2>
     </div>
   );
 };

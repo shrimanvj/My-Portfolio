@@ -8,7 +8,7 @@ const SingleExperience = ({ experience }) => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.7 }}
-      className="w-full max-w-md border-2 border-orange border-dashed rounded-2xl mt-12 p-6 mx-auto"
+      className="w-full max-w-md border-2 border-orange border-dashed rounded-2xl mt-12 p-6 mx-auto bg-white/5 backdrop-blur-md shadow-cyanShadow"
     >
       <p className="font-bold text-cyan text-lg mb-1">{experience.job}</p>
       <p className="text-orange font-medium mb-1">{experience.company}</p>

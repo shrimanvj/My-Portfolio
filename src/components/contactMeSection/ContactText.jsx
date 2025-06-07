@@ -1,7 +1,9 @@
 const ContactText = () => {
   return (
     <div>
-      <h2 className="text-orange text-3xl mb-4">Get In Touch</h2>
+      <h2 className="section-title">Get In Touch
+        <span className="section-title-underline"></span>
+      </h2>
       <p>
         Interested in discussing full-stack development, blockchain technology, or innovative web solutions?
         <br />

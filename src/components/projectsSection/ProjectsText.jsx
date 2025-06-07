@@ -1,7 +1,9 @@
 const ProjectsText = () => {
   return (
     <div className="flex flex-col items-center mt-[100px]">
-      <h2 className="text-6xl text-cyan mb-10">Projects</h2>
+      <h2 className="section-title">Projects
+        <span className="section-title-underline"></span>
+      </h2>
       <p className="text-lg text-center">
         I've developed a diverse portfolio of projects showcasing my expertise in both full-stack web development and blockchain technology. 
         From decentralized applications with smart contracts to modern web applications with real-time features, 

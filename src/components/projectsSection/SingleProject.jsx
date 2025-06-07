@@ -26,7 +26,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
       viewport={{ once: false, amount: 0.1 }}
       className={`section-card flex w-full sm:flex-col-reverse items-center gap-8 ${
         align === "left" ? "md:flex-row" : "md:flex-row-reverse"
-      } justify-end sm:flex-col`}
+      } justify-end sm:flex-col bg-white/5 backdrop-blur-md shadow-cyanShadow transition-transform duration-300 hover:scale-105 hover:shadow-orangeBigShadow`}
     >
       <div>
         <h2 className="md:text-3xl sm:text-2xl text-highlight ">{name}</h2>
