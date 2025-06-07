@@ -23,7 +23,7 @@ const ContactMain = () => {
   ];
 
   return (
-    <div id="contact" className="max-w-[1200px] mx-auto px-4 mt-[100px]">
+    <div id="contact" className="max-w-[1200px] mx-auto px-4 mt-[100px] animate-fade-in">
       <div className="flex flex-col md:flex-row gap-12 items-start justify-between section-card p-8">
         {/* Left Side: Contact Text and Form */}
         <div className="flex-1 flex flex-col gap-8 min-w-[300px]">
