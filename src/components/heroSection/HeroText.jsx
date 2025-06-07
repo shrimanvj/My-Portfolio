@@ -30,7 +30,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-      A passionate full-stack blockchain developer with 3 years of experience in <br/> building decentralized applications and smart contracts 
+        A passionate full-stack developer specializing in blockchain technology, building scalable decentralized applications, and creating seamless Web3 experiences with modern web technologies
       </motion.p>
     </div>
   );

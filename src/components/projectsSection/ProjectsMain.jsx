@@ -19,11 +19,11 @@ const projects = [
     link: "#",
   },
   {
-    name: "NFT Marketplace",
+    name: "BookLoop Platform",
     year: "Jan2025",
     align: "right",
     image: "/images/website-img-3.jpg",
-    link: "#",
+    link: "https://github.com/shrimanvj/Bookloop_Platform",
   },
   {
     name: "Decentralized Voting System",

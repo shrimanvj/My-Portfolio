@@ -3,10 +3,9 @@ const ContactText = () => {
     <div>
       <h2 className="text-orange text-3xl mb-4">Get In Touch</h2>
       <p>
-      Have an idea, question, or just want to chat about blockchain?
-
+        Interested in discussing full-stack development, blockchain technology, or innovative web solutions?
         <br />
-        Feel free to reach out — the Web3 world is better when explored together.
+        Let's connect and explore how we can create something amazing together, whether it's a traditional web application or a cutting-edge blockchain project.
       </p>
     </div>
   );
