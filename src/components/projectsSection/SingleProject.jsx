@@ -13,6 +13,8 @@ const SingleProject = ({ name, year, align, image, link }) => {
         return "A secure blockchain-based system for managing and sharing medical records with enhanced privacy and accessibility.";
       case "Decentralized Voting System":
         return "A transparent and secure voting system implemented on the blockchain for fair and immutable election processes.";
+      case "MERN AI Blog App":
+        return "A powerful full-stack blog platform built using the MERN stack (MongoDB, Express, React, Node.js) and enhanced with Google Gemini AI to generate intelligent, high-quality blog content automatically.";
       default:
         return "";
     }
@@ -51,7 +53,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
       </div>
       <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border border-white">
         <div className="w-full h-full bg-cyan opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block sm:hidden"></div>
-        <img src={image} alt="website image" className="w-full h-full" />
+        <img src={image} alt={name + ' project screenshot'} className="w-full h-full" />
       </div>
     </motion.div>
   );

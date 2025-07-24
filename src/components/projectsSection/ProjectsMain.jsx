@@ -32,6 +32,13 @@ const projects = [
     image: "/images/website-img-4.jpg",
     link: "https://github.com/shrimanvj/voting-dapp",
   },
+  {
+    name: "MERN AI Blog App",
+    year: "May2024",
+    align: "right",
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80", // Unsplash: coding/AI/blog theme
+    link: "https://github.com/shrimanvj/AI-Powered_BlogPlatform",
+  },
 ];
 
 const ProjectsMain = () => {
