@@ -13,7 +13,7 @@ const ContactMain = () => {
     {
       name: "LinkedIn",
       icon: FaLinkedin,
-      link: "https://linkedin.com/in/shrimanvj", // Update with your LinkedIn URL
+      link: "https://www.linkedin.com/in/shriman-vijay/", // Update with your LinkedIn URL
     },
     {
       name: "Twitter",
